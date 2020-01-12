@@ -17,7 +17,7 @@ class CreateSkillsTable extends Migration
             $table->bigIncrements('id');
             $table->string('name');
             $table->string('descripcion');
-            $table->string('id_empleado');
+            $table->biginteger('id_empleado')->unsigned();
             $table->timestamps();
 
             $table->foreign('id_empleado')

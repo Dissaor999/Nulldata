@@ -3,9 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Empleado;
 
-class EmpleadosController extends Controller
+class SkillsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,9 +14,6 @@ class EmpleadosController extends Controller
     public function index()
     {
         //
-        $empleados = Empleado::all();
-        dd($empleados);
-        return response()->json($empleados);
     }
 
     /**
@@ -39,12 +35,6 @@ class EmpleadosController extends Controller
     public function store(Request $request)
     {
         //
-        $valida = $request->validate([
-          'name' => ['required', 'max:75'],
-          'email' => ['required'],
-          'charge' => ['required'],
-          'dob' => ['required'],
-        ]);
     }
 
     /**
