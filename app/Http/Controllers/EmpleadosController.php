@@ -16,7 +16,6 @@ class EmpleadosController extends Controller
     {
         //
         $empleados = Empleado::all();
-        dd($empleados);
         return response()->json($empleados);
     }
 
@@ -55,7 +54,8 @@ class EmpleadosController extends Controller
      */
     public function show($id)
     {
-        //
+      $empleados = Empleado::find($id);
+      return response()->json($empleados);
     }
 
     /**
