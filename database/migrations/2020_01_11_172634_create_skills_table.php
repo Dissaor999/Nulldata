@@ -15,7 +15,14 @@ class CreateSkillsTable extends Migration
     {
         Schema::create('skills', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('name');
+            $table->string('descripcion');
+            $table->string('id_empleado');
             $table->timestamps();
+
+            $table->foreign('id_empleado')
+            ->references('id')->on('empleados')
+            ->onDelete('cascade');
         });
     }
 
@@ -28,4 +35,6 @@ class CreateSkillsTable extends Migration
     {
         Schema::dropIfExists('skills');
     }
+
+
 }

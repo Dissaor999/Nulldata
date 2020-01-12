@@ -15,6 +15,10 @@ class CreateEmpleadosTable extends Migration
     {
         Schema::create('empleados', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('name');
+            $table->string('email')->unique();
+            $table->string('charge');
+            $table->date('dob');
             $table->timestamps();
         });
     }
