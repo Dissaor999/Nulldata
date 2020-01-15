@@ -17,6 +17,7 @@ class CreateEmpleadosTable extends Migration
             $table->bigIncrements('id');
             $table->string('name');
             $table->string('email')->unique();
+            $table->longText('direecion');
             $table->string('charge');
             $table->date('dob');
             $table->timestamps();

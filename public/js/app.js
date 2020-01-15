@@ -68917,6 +68917,8 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 __webpack_require__(/*! ./components/Example */ "./resources/js/components/Example.js");
 
+__webpack_require__(/*! ./components/Tabla */ "./resources/js/components/Tabla.js");
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
@@ -69001,6 +69003,17 @@ function Example() {
 if (document.getElementById('example')) {
   react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Example, null), document.getElementById('example'));
 }
+
+/***/ }),
+
+/***/ "./resources/js/components/Tabla.js":
+/*!******************************************!*\
+  !*** ./resources/js/components/Tabla.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: E:\\sitiosweb\\Nulldata\\resources\\js\\components\\Tabla.js: Unexpected token (1:13)\n\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 1 | \u001b[39m\u001b[36mimport\u001b[39m \u001b[33mReact\u001b[39m {\u001b[33mComponent\u001b[39m} from \u001b[32m'react'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m   | \u001b[39m             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 2 | \u001b[39m\u001b[36mimport\u001b[39m \u001b[33mReactDOM\u001b[39m from \u001b[32m'react-dom'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 3 | \u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 4 | \u001b[39m\u001b[36mclass\u001b[39m \u001b[33mTabla\u001b[39m \u001b[36mextends\u001b[39m component {\u001b[0m\n    at Object.raise (E:\\sitiosweb\\Nulldata\\node_modules\\@babel\\parser\\lib\\index.js:7012:17)\n    at Object.unexpected (E:\\sitiosweb\\Nulldata\\node_modules\\@babel\\parser\\lib\\index.js:8405:16)\n    at Object.expectContextual (E:\\sitiosweb\\Nulldata\\node_modules\\@babel\\parser\\lib\\index.js:8371:41)\n    at Object.parseImport (E:\\sitiosweb\\Nulldata\\node_modules\\@babel\\parser\\lib\\index.js:12028:12)\n    at Object.parseStatementContent (E:\\sitiosweb\\Nulldata\\node_modules\\@babel\\parser\\lib\\index.js:10788:27)\n    at Object.parseStatement (E:\\sitiosweb\\Nulldata\\node_modules\\@babel\\parser\\lib\\index.js:10690:17)\n    at Object.parseBlockOrModuleBlockBody (E:\\sitiosweb\\Nulldata\\node_modules\\@babel\\parser\\lib\\index.js:11266:25)\n    at Object.parseBlockBody (E:\\sitiosweb\\Nulldata\\node_modules\\@babel\\parser\\lib\\index.js:11253:10)\n    at Object.parseTopLevel (E:\\sitiosweb\\Nulldata\\node_modules\\@babel\\parser\\lib\\index.js:10621:10)\n    at Object.parse (E:\\sitiosweb\\Nulldata\\node_modules\\@babel\\parser\\lib\\index.js:12131:10)\n    at parse (E:\\sitiosweb\\Nulldata\\node_modules\\@babel\\parser\\lib\\index.js:12182:38)\n    at parser (E:\\sitiosweb\\Nulldata\\node_modules\\@babel\\core\\lib\\transformation\\normalize-file.js:187:34)\n    at normalizeFile (E:\\sitiosweb\\Nulldata\\node_modules\\@babel\\core\\lib\\transformation\\normalize-file.js:113:11)\n    at runSync (E:\\sitiosweb\\Nulldata\\node_modules\\@babel\\core\\lib\\transformation\\index.js:44:43)\n    at runAsync (E:\\sitiosweb\\Nulldata\\node_modules\\@babel\\core\\lib\\transformation\\index.js:35:14)\n    at E:\\sitiosweb\\Nulldata\\node_modules\\@babel\\core\\lib\\transform.js:34:34\n    at processTicksAndRejections (internal/process/task_queues.js:72:11)");
 
 /***/ }),
 
